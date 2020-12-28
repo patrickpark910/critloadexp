@@ -4,16 +4,7 @@ CRITICAL LOADING EXPERIMENT
 Written by Patrick Park (RO, Physics '22)
 ppark@reed.edu
 Last updated Dec. 24, 2020
-_____
-SCOPE
 
-
-
-____
-NOTE
-
-I have tried to annotate the program as much as possible to
-be understandable by anybody with a 1st year STEM background.
 '''
 
 import os, sys, multiprocessing
@@ -27,7 +18,7 @@ from matplotlib.ticker import MultipleLocator
 filepath = "C:/MCNP6/facilities/reed/critloadexp" # do NOT include / at the end
 water = "102" # m102 is the mat id for H2O in MCNP materials cards
 water_density = "-1.00" # Density of water-- needs to be specified bc it varies with temp & pressure. Negative indicates units of g/cm3 in MCNP syntax. 
-universes = {'A':"5504",'B':"5505",'C':"5506",'D':"5507",'E':"5508",'F':"5509"}
+# universes = {'A':"5504",'B':"5505",'C':"5506",'D':"5507",'E':"5508",'F':"5509"} # testing only
 
 core_pos = {'B1','B2','B3','B4','B5','B6',
             'C1','C2','C3','C4','C6','C7','C8','C10','C11','C12',
