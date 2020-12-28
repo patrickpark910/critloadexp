@@ -14,6 +14,8 @@ This project involves a python wrapper (`cle.py`) that:
 In `results.png`, the MCNP-predicted critical loading (blue) is compared with our experimental data from 01/29/2020 (red) in our F-ring TRIGA Mk.I core with all rods down. 
 **MCNP predicts 2 more fuel elements are required to go critical with all rods down**; experimental suggests 11.
 
+I learned this method of Python-MCNP automation thanks to my time at the NIST Center for Neutron Research. My `run_mcnp()` function is almost identical to Dr. Danyal Turkoglu's NCNR code library, and I have adapted the `get_keff()` and iterative `matplotlib` plotting functions from what I wrote during my time working with him.
+
 ### Procedure
 
 *I'm writing these instructions for any undergraduate to be able to follow.
