@@ -56,7 +56,7 @@ fe_id = {'B1':'7202','B2':'9678','B3':'9679','B4':'7946','B5':'7945','B6':'8104'
 # 
 def main(argv):
     os.chdir(f'{filepath}')
-    '''
+    # '''
     base_deck = find_base_file()
     check_kcode(base_deck)
     opts = [] 
@@ -94,8 +94,8 @@ def main(argv):
         files_to_extract_keff.append(output)
 
     plot_inv_M(calc_inv_M(extract_keff(files_to_extract_keff)))
-    '''
-    plot_inv_M('inv_M.csv')
+    # '''
+    # plot_inv_M('inv_M.csv')
 
 #
 #
