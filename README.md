@@ -1,6 +1,7 @@
-## critloadexp: Python-automated MCNP simulation of the Critical Loading Experiment
+## critloadexp: Python-automated MCNP simulation of the critical loading experiment in a TRIGA Mk.I reactor
 
 Patrick Park | <ppark@reed.edu> | Physics '22 | Reed College
+
 Last major code update: Dec. 25, 2020
 
 ### Scope
