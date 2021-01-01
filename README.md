@@ -14,7 +14,7 @@ This project involves a python wrapper (`cle.py`) that:
 In `results.png`, the MCNP-predicted critical loading (blue) is compared with our experimental data from 01/29/2020 (red) in our F-ring TRIGA Mk.I core with all rods down. 
 **MCNP predicts 2 more fuel elements are required to go critical with all rods down**; experimental suggests 11.
 
-I learned this method of Python-MCNP automation thanks to my time at the NIST Center for Neutron Research. My `run_mcnp()` function is almost identical to Dr. Danyal Turkoglu's NCNR code library, and I have adapted the `get_keff()` and iterative `matplotlib` plotting functions from what I wrote during my time working with him.
+![Result figure produced](https://github.com/patrickpark910/critloadexp/blob/main/results.png?raw=true)
 
 ### Procedure
 
@@ -35,7 +35,7 @@ You also need to have python installed, which you can Google how to do so. If yo
 which will get you either your python version (`Python 3.7.1`) or an error.
 
 First, open `cle.py` and change the `filepath` variable to the location of this project folder on your computer. 
-For instance, the path of my `cle.py` is `C:\MCNP6\facilities\reed\critloadexp\cle.py`, so for me, `filepath = 'C:\MCNP6\facilities\reed\critloadexp'`. Do **not** include a backslash at the end.
+For instance, the path of my `cle.py` is `C:\MCNP6\facilities\reed\critloadexp\cle.py`, so for me, `filepath = "C:\MCNP6\facilities\reed\critloadexp"`. Do **not** include a backslash at the end.
 
 Then, run `cle.py` on your computer. This will be the only file you're really interacting with, unless you need to change the base MCNP input deck (`cle.i`).
 
@@ -70,3 +70,7 @@ Reed's critical loading experiment procedure doesn't remove graphite elements, s
 
 To change rod heights, open `cle.i` and `cmd F` to search for "ROD HEIGHTS". 0% and 90% rod heights should be in the code already. Change the z-positions of the control rod components using those two benchmarks. 
 The origin is center of the central thimble (x, y), the bottom surface of the bottom grid plate (z).
+
+### Acknowledgements
+
+I learned this method of Python-MCNP automation thanks to my time at the NIST Center for Neutron Research. My `run_mcnp()` function is almost identical to Dr. Danyal Turkoglu's NCNR code library, and I have adapted the `get_keff()` and iterative `matplotlib` plotting functions from what I wrote during my time working with him.
