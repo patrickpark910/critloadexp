@@ -1,6 +1,7 @@
 ## critloadexp: Python-automated MCNP simulation of the Critical Loading Experiment
 
 Patrick Park | <ppark@reed.edu> | Physics '22 | Reed College
+Last major code update: Dec. 25, 2020
 
 ### Scope
 
