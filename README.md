@@ -19,8 +19,7 @@ In `results.png`, the MCNP-predicted critical loading (blue) is compared with ou
 ### Procedure
 
 *I'm writing these instructions for any undergraduate to be able to follow.
-That being said, if you were born in this century and you're messing around with Fortran/MCNP, you probably (should) have a working handle of Python.
-If you don't, that's okay too. I am learning a lot of Python and MCNP myself by doing this project.*
+Younger inclusitivity is important because Python really makes writing MCNP decks easier, so this was a valuable learning opportunity that I want to be as accessible as possible.*
 
 You need to have MCNP installed. It's an export-controlled, licensed software regulated by our Big Brother at Oak Ridge National Laboratory.
 
